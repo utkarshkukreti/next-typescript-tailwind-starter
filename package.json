@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "next",
-    "build": "rm -rf .next out && next build && next export"
+    "build": "rm -rf .next out && next build && next export",
+    "serve": "next start"
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.3.0",
