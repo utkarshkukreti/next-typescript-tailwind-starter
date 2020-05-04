@@ -4,7 +4,7 @@ import '../index.css';
 import '../../node_modules/typeface-work-sans';
 
 export default ({ Component, pageProps }: AppProps) => (
-  <div className="bg-purple-600 text-purple-50 min-h-screen">
+  <div className="bg-purple-500 text-purple-50 min-h-screen flex flex-col">
     <Component {...pageProps} />
   </div>
 );
