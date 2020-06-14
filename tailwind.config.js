@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{html,css,js,jsx,ts,tsx}'],
+  purge: ['./src/**/*'],
   theme: {
     extend: {
       fontFamily: {
