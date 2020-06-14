@@ -8,9 +8,9 @@ export default () => {
       <Head>
         <title>Next TypeScript Tailwind Starter</title>
       </Head>
-      <div className="flex-1 flex justify-center items-center">
+      <div className="flex justify-center items-center min-h-screen">
         <button
-          className="px-6 sm:px-10 py-5 bg-white text-purple-600 sm:text-lg rounded-full shadow-lg focus:outline-none transition duration-150 transform hover:-translate-y-1 hover:bg-gray-300 hover:scale-105"
+          className="px-6 sm:px-10 py-5 bg-purple-600 hover:bg-purple-500 text-purple-50 sm:text-lg rounded-full shadow focus:outline-none transition duration-150 transform hover:scale-105"
           onClick={() => setCounter(counter + 1)}
         >
           You've clicked this button {counter} times!
