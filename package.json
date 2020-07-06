@@ -5,15 +5,17 @@
     "serve": "next start"
   },
   "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
     "@tailwindcss/ui": "^0.3.0",
     "@types/node": "^14.0.14",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
     "autoprefixer": "^9.8.4",
-    "next": "^9.4.4",
     "postcss-import": "^12.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
     "tailwindcss": "^1.4.6",
     "typeface-work-sans": "^0.0.72",
     "typescript": "^3.9.6"
