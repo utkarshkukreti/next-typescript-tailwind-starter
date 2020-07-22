@@ -3,7 +3,7 @@ import Head from 'next/head';
 import MainLayout from '@/layouts/Main';
 import withLayout from '@/withLayout';
 
-export default withLayout(MainLayout, () => {
+const Index = () => {
   const [counter, setCounter] = useState(0);
   return (
     <>
@@ -20,4 +20,6 @@ export default withLayout(MainLayout, () => {
       </div>
     </>
   );
-});
+};
+
+export default withLayout(MainLayout, Index);
