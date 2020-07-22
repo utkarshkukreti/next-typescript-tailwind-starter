@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Next TypeScript Tailwind Starter</title>
+        <title>Untitled</title>
       </Head>
       <div className="flex justify-center items-center min-h-screen">
         <button
