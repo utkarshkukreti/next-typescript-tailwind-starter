@@ -1,10 +1,17 @@
-import { AppProps } from 'next/app';
-
 import '@/index.css';
 import 'typeface-work-sans';
+import { WithLayout } from '@/withLayout';
 
-export default ({ Component, pageProps }: AppProps) => (
-  <div className="antialiased">
+type Props<P> = {
+  Component: WithLayout<P>;
+  pageProps: P & {};
+};
+
+export default <P extends any>({ Component, pageProps }: Props<P>) =>
+  Component.Layout ? (
+    <Component.Layout>
+      <Component {...pageProps} />
+    </Component.Layout>
+  ) : (
     <Component {...pageProps} />
-  </div>
-);
+  );

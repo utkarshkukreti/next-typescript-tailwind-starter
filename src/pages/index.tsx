@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import Head from 'next/head';
+import MainLayout from '@/layouts/Main';
+import withLayout from '@/withLayout';
 
-export default () => {
+export default withLayout(MainLayout, () => {
   const [counter, setCounter] = useState(0);
   return (
     <>
@@ -18,4 +20,4 @@ export default () => {
       </div>
     </>
   );
-};
+});
