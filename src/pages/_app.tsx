@@ -1,9 +1,9 @@
 import '@/index.css';
 import 'typeface-work-sans';
-import { WithLayout } from '@/withLayout';
+import { WithLayoutOptional } from '@/withLayout';
 
 type Props<P> = {
-  Component: WithLayout<P>;
+  Component: WithLayoutOptional<P>;
   pageProps: P & {};
 };
 
