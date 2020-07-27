@@ -4,7 +4,9 @@ export type WithLayoutOptional<P> = React.ComponentType<P> & {
   Layout?: Layout;
 };
 
-export default <P>(
+const WithLayout = <P>(
   Layout: Layout,
   component: React.ComponentType<P>,
 ): WithLayoutOptional<P> => Object.assign(component, { Layout });
+
+export default WithLayout;

@@ -7,7 +7,7 @@ type Props<P extends {}> = {
   pageProps: P;
 };
 
-export default <P extends {}>({ Component, pageProps }: Props<P>) =>
+const App = <P extends {}>({ Component, pageProps }: Props<P>) =>
   Component.Layout ? (
     <Component.Layout>
       <Component {...pageProps} />
@@ -15,3 +15,5 @@ export default <P extends {}>({ Component, pageProps }: Props<P>) =>
   ) : (
     <Component {...pageProps} />
   );
+
+export default App;
