@@ -2,7 +2,8 @@
   "scripts": {
     "start": "next",
     "build": "rm -rf .next out && next build && next export",
-    "serve": "next start"
+    "serve": "next start",
+    "clean": "rm -rf .next out"
   },
   "dependencies": {
     "next": "^9.5.0",
