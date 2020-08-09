@@ -331,9 +331,9 @@
     js-tokens "^4.0.0"
 
 "@babel/parser@^7.10.4", "@babel/parser@^7.11.0", "@babel/parser@^7.7.7":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.2.tgz#0882ab8a455df3065ea2dcb4c753b2460a24bead"
-  integrity sha512-Vuj/+7vLo6l1Vi7uuO+1ngCDNeVmNbTngcJFKCR/oEtz8tKz0CJxZEGmPt9KcIloZhOZ3Zit6xbpXT2MDlS9Vw==
+  version "7.11.3"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.3.tgz#9e1eae46738bcd08e23e867bab43e7b95299a8f9"
+  integrity sha512-REo8xv7+sDxkKvoxEywIdsNFiZLybwdI7hcT5uEPyQrSMB4YQ973BfC9OOrD/81MaIjh6UxdulIQXkjmiH3PcA==
 
 "@babel/plugin-proposal-async-generator-functions@^7.8.3":
   version "7.10.5"
@@ -5051,7 +5051,7 @@ webpack-sources@2.0.0-beta.8:
     source-list-map "^2.0.1"
     source-map "~0.6.1"
 
-webpack@4.44.0, webpack@^5.0.0-beta.22:
+webpack@4.44.0, webpack@^5.0.0-beta.24:
   version "5.0.0-beta.24"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.24.tgz#03598047c635335883648f1d152fe48d38124059"
   integrity sha512-08TefC7UyXhnR7r6Ebjgb/uGhnAUNpuKLLsG6Xm26I/H3gYHkpiON5LLWO0oBKAz7E5mg/fDWVz/rrB6Ysbj+g==
