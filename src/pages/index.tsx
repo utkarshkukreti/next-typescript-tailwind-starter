@@ -9,6 +9,7 @@ const Index = () => {
     <>
       <Head>
         <title>Untitled</title>
+        <meta name="description" content="Untitled Page" />
       </Head>
       <div className="flex justify-center items-center min-h-screen">
         <button
