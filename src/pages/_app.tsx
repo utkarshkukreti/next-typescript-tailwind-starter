@@ -1,5 +1,4 @@
 import '@/index.css';
-import 'typeface-work-sans';
 import { WithLayoutOptional } from '@/withLayout';
 
 type Props<P extends {}> = {
