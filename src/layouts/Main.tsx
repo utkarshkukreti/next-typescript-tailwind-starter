@@ -1,5 +1,3 @@
-const Main = ({ children }: { children: React.ReactNode }) => (
-  <div className="antialiased">{children}</div>
-);
+const Main = ({ children }: { children: React.ReactNode }) => children;
 
 export default Main;

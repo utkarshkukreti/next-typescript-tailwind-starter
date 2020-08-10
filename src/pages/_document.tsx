@@ -21,7 +21,7 @@ class Document extends NextDocument<Props> {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body className="antialiased">
           <Main />
           <NextScript />
         </body>
