@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: 'Verdana, sans-serif',
+        sans: '"Trebuchet MS", "Lucida Grande", sans-serif',
       },
     },
   },
