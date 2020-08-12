@@ -1,5 +1,5 @@
 import '@/index.css';
-import { WithLayoutOptional } from '@/withLayout';
+import { WithLayoutOptional } from '@/WithLayout';
 
 type Props<P extends {}> = {
   Component: WithLayoutOptional<P>;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import MainLayout from '@/layouts/Main';
-import withLayout from '@/withLayout';
+import WithLayout from '@/WithLayout';
 
 const Index = () => {
   const [counter, setCounter] = useState(0);
@@ -23,4 +23,4 @@ const Index = () => {
   );
 };
 
-export default withLayout(MainLayout, Index);
+export default WithLayout(MainLayout, Index);
