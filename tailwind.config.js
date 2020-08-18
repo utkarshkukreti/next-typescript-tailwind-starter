@@ -1,4 +1,8 @@
 module.exports = {
+  experimental: 'all',
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   purge: ['./src/**/*'],
   theme: {
     extend: {
@@ -8,5 +12,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require('@tailwindcss/ui')],
+  plugins: [],
 };
