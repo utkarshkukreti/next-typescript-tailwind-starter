@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Head from 'next/head';
 import MainLayout from '@/layouts/Main';
 import WithLayout from '@/WithLayout';
 
