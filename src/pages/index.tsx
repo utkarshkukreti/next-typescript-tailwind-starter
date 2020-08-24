@@ -23,4 +23,6 @@ const Index = () => {
   );
 };
 
-export default WithLayout(MainLayout, Index);
+export default WithLayout(Index, page => (
+  <MainLayout title="Home">{page}</MainLayout>
+));
