@@ -8,7 +8,7 @@ type Props<P extends {}> = {
 
 const App = <P extends {}>({ Component, pageProps }: Props<P>) =>
   Component.Layout ? (
-    Component.Layout(<Component {...pageProps} />)
+    Component.Layout(<Component {...pageProps} />, pageProps)
   ) : (
     <Component {...pageProps} />
   );
