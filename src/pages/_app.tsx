@@ -1,4 +1,5 @@
 import '@/index.css';
+
 import { WithLayoutOptional } from '@/WithLayout';
 
 type Props<P extends {}> = {
