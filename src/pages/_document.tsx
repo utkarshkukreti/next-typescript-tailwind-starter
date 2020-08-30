@@ -20,7 +20,9 @@ class Document extends NextDocument<Props> {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <body className="antialiased">
           <Main />
           <NextScript />
