@@ -1,11 +1,4 @@
 module.exports = {
-  experimental: 'all',
-  future: {
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
   purge: ['./src/**/*'],
   theme: {
     extend: {
