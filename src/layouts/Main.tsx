@@ -14,7 +14,7 @@ const Main = ({
       <title>{title}</title>
       <meta name="description" content={description} />
     </Head>
-    <div>{children}</div>
+    {children}
   </>
 );
 
