@@ -3062,10 +3062,10 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tailwindcss@^2.0.0-alpha.11:
-  version "2.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.11.tgz#00301f6c741b550c4d60e3ad095e96c0e981dea7"
-  integrity sha512-x40VHcoWpQuVMbK+BX3L/E4jsBIk+Y3z7d74TS8xbEmXCvSZ1eBIXDPtFTi3mKRBlQ1DkoqVPS8lQ5KTbNYFCg==
+tailwindcss@^2.0.0-alpha.12:
+  version "2.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.12.tgz#485dd179b90568d945e4759f0f5269f5a9f945c9"
+  integrity sha512-PpRj2aofuBsav6+xX+2w8sueI3f1p5pC62iiJFexNaou42d6qxUFKVWsAw2PDl8NpgGt/vAJdqb7bwSZNCGbzg==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.0.0"
     autoprefixer "^9.8.6"
