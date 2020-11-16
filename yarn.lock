@@ -3038,10 +3038,10 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-tailwindcss@^2.0.0-alpha.22:
-  version "2.0.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.22.tgz#c381e4881bf544f36cc7b2244bba85d7a1cc9dfd"
-  integrity sha512-a19UQis3jQ358aHvl7W25J3xkhzvk0Gm89/OpgbWaI8RKD09LCZjuYn/SAHpcseeyE0QcEsg9uxAv5FfYiZLKg==
+tailwindcss@^2.0.0-alpha.23:
+  version "2.0.0-alpha.23"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.0.0-alpha.23.tgz#a196391f24403500ddfcf894a38481f3367a6ff3"
+  integrity sha512-hvN53VBmsqLvC93yFE0HnNuf+65t5tRzfo9lfbdsogNIb1j1Jh4lnqzMy8OzbuJdgByFpzhqU/boKp220zzZ2g==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.0.0"
     bytes "^3.0.0"
