@@ -1,17 +1,17 @@
-import '@/index.css';
+import '@/index.css'
 
-import { WithLayoutOptional } from '@/WithLayout';
+import { WithLayoutOptional } from '@/WithLayout'
 
 type Props<P extends {}> = {
-  Component: WithLayoutOptional<P>;
-  pageProps: P;
-};
+  Component: WithLayoutOptional<P>
+  pageProps: P
+}
 
 const App = <P extends {}>({ Component, pageProps }: Props<P>) =>
   Component.Layout ? (
     Component.Layout(<Component {...pageProps} />, pageProps)
   ) : (
     <Component {...pageProps} />
-  );
+  )
 
-export default App;
+export default App

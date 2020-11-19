@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
-import MainLayout from '@/layouts/Main';
-import WithLayout from '@/WithLayout';
+import MainLayout from '@/layouts/Main'
+import WithLayout from '@/WithLayout'
 
 const Index = () => {
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0)
   return (
     <div className="flex justify-center items-center min-h-screen">
       <button
@@ -14,11 +14,11 @@ const Index = () => {
         You've clicked this button {counter} times!
       </button>
     </div>
-  );
-};
+  )
+}
 
 export default WithLayout(Index, page => (
   <MainLayout title="Home" description="Home Page">
     {page}
   </MainLayout>
-));
+))

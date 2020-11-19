@@ -1,13 +1,13 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
 const Main = ({
   title,
   description,
   children,
 }: {
-  title: string;
-  description: string;
-  children: React.ReactNode;
+  title: string
+  description: string
+  children: React.ReactNode
 }) => (
   <>
     <Head>
@@ -16,6 +16,6 @@ const Main = ({
     </Head>
     {children}
   </>
-);
+)
 
-export default Main;
+export default Main
