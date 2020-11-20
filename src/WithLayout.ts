@@ -1,4 +1,4 @@
-export type Layout<P> = (_: React.ReactNode, props: P) => React.ReactNode
+export type Layout<P> = (node: React.ReactNode, props: P) => React.ReactNode
 
 export type WithLayoutOptional<P> = React.ComponentType<P> & {
   Layout?: Layout<P>
