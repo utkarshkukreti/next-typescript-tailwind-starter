@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         ...require('tailwindcss/colors'),
+        gray: require('tailwindcss/colors').blueGray,
       },
       fontFamily: {
         sans: '"Trebuchet MS", "Lucida Grande", sans-serif',
