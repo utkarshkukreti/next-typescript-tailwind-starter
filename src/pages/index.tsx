@@ -1,8 +1,5 @@
 import { useState } from 'react'
 
-import MainLayout from '@/layouts/Main'
-import WithLayout from '@/WithLayout'
-
 const Index = () => {
   const [counter, setCounter] = useState(0)
   return (
@@ -17,8 +14,4 @@ const Index = () => {
   )
 }
 
-export default WithLayout(Index, page => (
-  <MainLayout title="Home" description="Home Page">
-    {page}
-  </MainLayout>
-))
+export default Index
