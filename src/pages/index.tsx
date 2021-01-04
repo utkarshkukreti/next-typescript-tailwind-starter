@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Index = () => {
+const Page = () => {
   const [counter, setCounter] = useState(0)
   return (
     <div className="flex justify-center items-center min-h-screen">
@@ -14,4 +14,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Page
