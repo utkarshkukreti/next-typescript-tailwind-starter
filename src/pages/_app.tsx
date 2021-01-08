@@ -1,12 +1,17 @@
 import '@/index.css'
 
+import { WithLayoutOptional } from '@/WithLayout'
+
 type Props<P extends {}> = {
-  Component: React.ComponentType<P>
+  Component: WithLayoutOptional<P>
   pageProps: P
 }
 
-const App = <P extends {}>({ Component, pageProps }: Props<P>) => (
-  <Component {...pageProps} />
-)
+const App = <P extends {}>({ Component, pageProps }: Props<P>) =>
+  Component.Layout ? (
+    Component.Layout(<Component {...pageProps} />, pageProps)
+  ) : (
+    <Component {...pageProps} />
+  )
 
 export default App

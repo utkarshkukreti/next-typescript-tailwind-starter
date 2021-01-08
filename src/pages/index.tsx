@@ -1,5 +1,8 @@
 import { useState } from 'react'
 
+import MainLayout from '@/layouts/Main'
+import WithLayout from '@/WithLayout'
+
 const Page = () => {
   const [counter, setCounter] = useState(0)
   return (
@@ -14,4 +17,8 @@ const Page = () => {
   )
 }
 
-export default Page
+export default WithLayout(Page, page => (
+  <MainLayout title="Home" description="Home Page">
+    {page}
+  </MainLayout>
+))
