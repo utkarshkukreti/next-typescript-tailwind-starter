@@ -5,7 +5,7 @@ export default class extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="data:," />
         </Head>
         <body className="antialiased text-gray-800">
           <Main />
