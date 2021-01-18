@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import MainLayout from '@/layouts/Main'
-import WithLayout from '@/WithLayout'
+import WithLayout from '@/layouts/WithLayout'
 
 const Page = () => {
   const [counter, setCounter] = useState(0)
