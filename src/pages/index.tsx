@@ -1,5 +1,3 @@
-import { WithLayout } from '@/layouts'
-import MainLayout from '@/layouts/Main'
 import { useState } from 'react'
 
 const Page = () => {
@@ -16,8 +14,4 @@ const Page = () => {
   )
 }
 
-export default WithLayout(Page, page => (
-  <MainLayout title="Home" description="Home Page">
-    {page}
-  </MainLayout>
-))
+export default Page
