@@ -7,7 +7,7 @@ export default class extends Document {
         <Head>
           <link rel="icon" href="data:," />
         </Head>
-        <body className="antialiased text-gray-800">
+        <body className="antialiased text-gray-900">
           <Main />
           <NextScript />
         </body>
