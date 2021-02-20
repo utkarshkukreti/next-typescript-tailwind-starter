@@ -4,7 +4,8 @@
     "build": "yarn clean && next build",
     "start": "next start",
     "clean": "rm -rf .next out",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "^10.0.7",
