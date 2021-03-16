@@ -1,12 +1,7 @@
 import '@/index.css'
 
-type Props<P extends {}> = {
-  Component: React.ComponentType<P>
-  pageProps: P
-}
+import { AppProps } from 'next/app'
 
-const App = <P extends {}>({ Component, pageProps }: Props<P>) => (
-  <Component {...pageProps} />
-)
+const App = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />
 
 export default App
