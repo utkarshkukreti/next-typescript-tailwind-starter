@@ -6,7 +6,7 @@ const Page = () => {
   const [messages, setMessages] = useState([
     'How do you write a web application?',
     'First you write the code and then you go to "Save As..." to save it on the web.',
-    'Which language should use?',
+    'Which language should I use?',
     'That depends on your business.',
     "I'm in finance.",
     'Then you should use FORTRAN.',
