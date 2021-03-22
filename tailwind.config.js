@@ -7,7 +7,9 @@ module.exports = {
         gray: require('tailwindcss/colors').coolGray,
       },
       fontFamily: {
-        sans: '"Trebuchet MS", "Lucida Grande", sans-serif',
+        // https://css-tricks.com/snippets/css/font-stacks/
+        sans:
+          '"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif',
       },
     },
   },
