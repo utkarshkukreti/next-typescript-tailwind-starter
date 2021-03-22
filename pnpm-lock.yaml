@@ -4,8 +4,8 @@ dependencies:
   react-dom: 17.0.1_react@17.0.1
 devDependencies:
   '@tailwindcss/forms': 0.2.1
-  '@tailwindcss/jit': 0.1.1_postcss@8.2.8+tailwindcss@2.0.3
-  '@tailwindcss/typography': 0.4.0_tailwindcss@2.0.3
+  '@tailwindcss/jit': 0.1.5_postcss@8.2.8+tailwindcss@2.0.4
+  '@tailwindcss/typography': 0.4.0_tailwindcss@2.0.4
   '@types/node': 14.14.35
   '@types/react': 17.0.3
   '@types/react-dom': 17.0.2
@@ -13,7 +13,7 @@ devDependencies:
   postcss: 8.2.8
   prettier: 2.2.1
   prettier-plugin-sorted: 2.0.0_prettier@2.2.1
-  tailwindcss: 2.0.3_caf414ac65a978d0d57907a0ec9fb41e
+  tailwindcss: 2.0.4_caf414ac65a978d0d57907a0ec9fb41e
   typescript: 4.2.3
 lockfileVersion: 5.2
 overrides:
@@ -159,30 +159,31 @@ packages:
     dev: true
     resolution:
       integrity: sha512-czfvEdY+J2Ogfd6RUSr/ZSUmDxTujr34M++YLnp2cCPC3oJ4kFvFMaRXA6cEXKw7F1hJuapdjXRjsXIEXGgORg==
-  /@tailwindcss/jit/0.1.1_postcss@8.2.8+tailwindcss@2.0.3:
+  /@tailwindcss/jit/0.1.5_postcss@8.2.8+tailwindcss@2.0.4:
     dependencies:
       chokidar: 3.5.1
       dlv: 1.1.3
       fast-glob: 3.2.5
       lodash.topath: 4.5.2
+      normalize-path: 3.0.0
       object-hash: 2.1.1
       postcss: 8.2.8
       postcss-selector-parser: 6.0.4
       quick-lru: 5.1.1
-      tailwindcss: 2.0.3_caf414ac65a978d0d57907a0ec9fb41e
+      tailwindcss: 2.0.4_caf414ac65a978d0d57907a0ec9fb41e
     dev: true
     peerDependencies:
       postcss: ^8.2.6
       tailwindcss: ^2.0.3
     resolution:
-      integrity: sha512-KXpWiRksgs+7voUeFHRDeRwo+EzY9PW/WLeFt8NHl2+hP551PoDC56QjXAjcgDgRniWQg6WoOwFsm6u2ajVWow==
-  /@tailwindcss/typography/0.4.0_tailwindcss@2.0.3:
+      integrity: sha512-f7Fdd93uD4J0hyaNWX7vrWF0pA39hh7oxHVzTqhwfUWmzWQBGevKfnniLe4GFxwfqYpYHxy5ycOWP76tzWhvrQ==
+  /@tailwindcss/typography/0.4.0_tailwindcss@2.0.4:
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 2.0.3_caf414ac65a978d0d57907a0ec9fb41e
+      tailwindcss: 2.0.4_caf414ac65a978d0d57907a0ec9fb41e
     dev: true
     peerDependencies:
       tailwindcss: 2.0.0-alpha.24 || ^2.0.0
@@ -316,7 +317,7 @@ packages:
   /autoprefixer/10.2.5_postcss@8.2.8:
     dependencies:
       browserslist: 4.16.3
-      caniuse-lite: 1.0.30001200
+      caniuse-lite: 1.0.30001204
       colorette: 1.2.2
       fraction.js: 4.0.13
       normalize-range: 0.1.2
@@ -434,9 +435,9 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.16.1:
     dependencies:
-      caniuse-lite: 1.0.30001200
+      caniuse-lite: 1.0.30001204
       colorette: 1.2.2
-      electron-to-chromium: 1.3.689
+      electron-to-chromium: 1.3.693
       escalade: 3.1.1
       node-releases: 1.1.71
     dev: false
@@ -447,9 +448,9 @@ packages:
       integrity: sha512-UXhDrwqsNcpTYJBTZsbGATDxZbiVDsx6UjpmRUmtnP10pr8wAYr5LgFoEFw9ixriQH2mv/NX2SfGzE/o8GndLA==
   /browserslist/4.16.3:
     dependencies:
-      caniuse-lite: 1.0.30001200
+      caniuse-lite: 1.0.30001204
       colorette: 1.2.2
-      electron-to-chromium: 1.3.689
+      electron-to-chromium: 1.3.693
       escalade: 3.1.1
       node-releases: 1.1.71
     dev: true
@@ -520,9 +521,9 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
-  /caniuse-lite/1.0.30001200:
+  /caniuse-lite/1.0.30001204:
     resolution:
-      integrity: sha512-ic/jXfa6tgiPBAISWk16jRI2q8YfjxHnSG7ddSL1ptrIP8Uy11SayFrjXRAk3NumHpDb21fdTkbTxb/hOrFrnQ==
+      integrity: sha512-JUdjWpcxfJ9IPamy2f5JaRDCaqJOxDzOSKtbdx4rH9VivMd1vIzoPumsJa9LoMIi4Fx2BV2KZOxWhNkBjaYivQ==
   /chalk/2.4.2:
     dependencies:
       ansi-styles: 3.2.1
@@ -715,7 +716,7 @@ packages:
       integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
   /cssnano-preset-simple/1.2.2:
     dependencies:
-      caniuse-lite: 1.0.30001200
+      caniuse-lite: 1.0.30001204
       postcss: 7.0.35
     dev: false
     resolution:
@@ -800,9 +801,9 @@ packages:
       npm: '>=1.2'
     resolution:
       integrity: sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
-  /electron-to-chromium/1.3.689:
+  /electron-to-chromium/1.3.693:
     resolution:
-      integrity: sha512-WCn+ZaU3V8WttlLNSOGOAlR2XpxibGre7slwGrYBB6oTjYPgP29LNDGG6wLvLTMseLdE+G1vno7PfY7JyDV48g==
+      integrity: sha512-vUdsE8yyeu30RecppQtI+XTz2++LWLVEIYmzeCaCRLSdtKZ2eXqdJcrs85KwLiPOPVc6PELgWyXBsfqIvzGZag==
   /elliptic/6.5.4:
     dependencies:
       bn.js: 4.12.0
@@ -1415,7 +1416,7 @@ packages:
       ast-types: 0.13.2
       browserslist: 4.16.1
       buffer: 5.6.0
-      caniuse-lite: 1.0.30001200
+      caniuse-lite: 1.0.30001204
       chalk: 2.4.2
       chokidar: 3.5.1
       crypto-browserify: 3.12.0
@@ -1848,10 +1849,10 @@ packages:
       node: '>=0.4.x'
     resolution:
       integrity: sha512-wkvS7mL/JMugcup3/rMitHmd9ecIGd2lhFhK9N3UUQ450h66d1r3Y9nvXzQAW1Lq+wyx61k/1pfKS5KuKiyEbg==
-  /queue-microtask/1.2.2:
+  /queue-microtask/1.2.3:
     dev: true
     resolution:
-      integrity: sha512-dB15eXv3p2jDlbOiNLyMabYg1/sXvppd8DP2J3EOCQ0AkuSXCW2tP7mnVouVLJKgUMY6yP0kcQDVpLCN13h4Xg==
+      integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
   /quick-lru/5.1.1:
     dev: true
     engines:
@@ -1987,7 +1988,7 @@ packages:
       integrity: sha512-ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==
   /run-parallel/1.2.0:
     dependencies:
-      queue-microtask: 1.2.2
+      queue-microtask: 1.2.3
     dev: true
     resolution:
       integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
@@ -2188,7 +2189,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
-  /tailwindcss/2.0.3_caf414ac65a978d0d57907a0ec9fb41e:
+  /tailwindcss/2.0.4_caf414ac65a978d0d57907a0ec9fb41e:
     dependencies:
       '@fullhuman/postcss-purgecss': 3.1.3
       autoprefixer: 10.2.5_postcss@8.2.8
@@ -2220,7 +2221,7 @@ packages:
       autoprefixer: ^10.0.2
       postcss: ^8.0.9
     resolution:
-      integrity: sha512-s8NEqdLBiVbbdL0a5XwTb8jKmIonOuI4RMENEcKLR61jw6SdKvBss7NWZzwCaD+ZIjlgmesv8tmrjXEp7C0eAQ==
+      integrity: sha512-WhgR0oiBxGOZ9jY0yVfaJCHnckR7U74Fs/BMsYxGdwGJQ5Hd/HlaKD26bEJFZOvYScJo0QcUj2ImldzedsG7Bw==
   /timers-browserify/2.0.12:
     dependencies:
       setimmediate: 1.0.5
@@ -2405,7 +2406,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@tailwindcss/forms': ^0.2.1
-  '@tailwindcss/jit': ^0.1.1
+  '@tailwindcss/jit': ^0.1.5
   '@tailwindcss/typography': ^0.4.0
   '@types/node': ^14.14.35
   '@types/react': ^17.0.3
@@ -2417,5 +2418,5 @@ specifiers:
   prettier-plugin-sorted: ^2.0.0
   react: ^17.0.1
   react-dom: ^17.0.1
-  tailwindcss: ^2.0.3
+  tailwindcss: ^2.0.4
   typescript: ^4.2.3
