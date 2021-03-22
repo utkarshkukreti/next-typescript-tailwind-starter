@@ -1,10 +1,12 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: ['./src/**/*'],
   theme: {
     extend: {
       colors: {
-        ...require('tailwindcss/colors'),
-        gray: require('tailwindcss/colors').coolGray,
+        ...colors,
+        gray: colors.coolGray,
       },
       fontFamily: {
         // https://css-tricks.com/snippets/css/font-stacks/
