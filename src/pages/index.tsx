@@ -39,7 +39,7 @@ const Page = ({ name: initialName }: Props) => {
 
 export const getServerSideProps: GetServerSideProps<Props> = async context => {
   const name =
-    typeof context.query.name === 'string' ? context.query.name : 'Nexter'
+    typeof context.query['name'] === 'string' ? context.query['name'] : 'Nexter'
 
   return {
     props: {
