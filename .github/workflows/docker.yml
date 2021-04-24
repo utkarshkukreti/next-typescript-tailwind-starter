@@ -9,4 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: docker-compose up -d
+        env:
+          DOCKER_BUILDKIT: 1
       - run: docker run --network host curlimages/curl -vvv --retry 10 --retry-all-errors http://localhost:3000
