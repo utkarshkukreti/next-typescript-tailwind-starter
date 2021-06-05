@@ -11,8 +11,7 @@ module.exports = {
       },
       fontFamily: {
         // https://css-tricks.com/snippets/css/font-stacks/
-        sans:
-          '"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif',
+        sans: '"Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif',
       },
     },
   },
