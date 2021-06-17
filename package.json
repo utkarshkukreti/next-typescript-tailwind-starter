@@ -1,9 +1,8 @@
 {
   "scripts": {
     "dev": "next dev",
-    "build": "yarn clean && next build",
+    "build": "next build",
     "start": "next start",
-    "clean": "rm -rf .next out",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
